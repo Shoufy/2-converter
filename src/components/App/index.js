@@ -1,13 +1,23 @@
 // == Import npm
 import React from 'react';
 
+//import composants
+import Header from '../Header';
+import Amount from '../Amount';
+import Currencies from '../Currencies';
+
 // == Import
-import './styles.scss';
+// import './_app.scss';
+import 'src/styles/index.scss';
+
 
 // == Composant
 const App = () => (
   <div className="app">
-    <h1>Composant : App</h1>
+    <Header />
+    <Currencies />
+    <Amount />
+
   </div>
 );
 

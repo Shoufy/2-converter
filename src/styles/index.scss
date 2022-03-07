@@ -1,5 +1,10 @@
 @use 'reset';
 @use 'vars';
+@use 'src/components/App/test';
+@use 'src/components/Amount/amount';
+@use 'src/components/Currencies/currencies';
+@use 'src/components/Header/header';
+
 
 body {
   font-family: sans-serif;
